@@ -90,8 +90,8 @@ function Footer() {
           <div className="col-md-6 col-xs-12 col-sm-6">
             <div className="copyright">
               <p>
-                Copyright 2016. fontanero inc. | Design by{" "}
-                <a href="https://uicookies.com">uiCookies</a>
+                Copyright 2016. fontanero inc.
+                {/* <a href="https://uicookies.com">uiCookies</a> */}
               </p>
             </div>
           </div>

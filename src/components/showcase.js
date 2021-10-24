@@ -9,7 +9,7 @@ function ShowCase() {
           <div className="col-md-12">
             {/* <!-- Nav tabs --> */}
             <ul className="tablist" >
-              <li>Service Doese Matter</li>
+              <li>Products Does Matters</li>
               <li role="presentation" className="active">
                 <a
                   href="/residential"

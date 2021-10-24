@@ -8,21 +8,24 @@ function Hero2() {
         <div className="col-md-12">
           <div className="welcome-section">
             <div className="welcome-thumb">
-              <StaticImage src="../images/welcome.jpg" alt="welcome fontanero" />
+              <StaticImage
+                src="../images/welcome.jpg"
+                alt="welcome fontanero"
+              />
             </div>
             <div className="welcome-content">
               <h3>welcome to fontanero</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-                quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-                rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
-                felis eu pede mollis pretium. Integer tincidunt cras dapibus.{" "}
+                Shanghai Hello Pure Water Technology Co.,ltd is established in
+                2010. We are a professional manufacturer and exporter that is
+                concerned with the design, development and production of water
+                treatment system and components. We are located in Shanghai,
+                China, with convenient transportation access. All of our
+                products comply with international quality standards and are
+                greatly appreciated in a variety of different markets throughout
+                the world.{" "}
               </p>
-              <a className="btn" href="/">
+              <a className="btn" href="/aboutUs">
                 Read More
               </a>
             </div>

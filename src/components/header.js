@@ -73,37 +73,88 @@ const Header = () => (
                 >
                   <ul className="nav navbar-nav navbar-left">
                     <li>
-                      <Link to="index.html">Home</Link>
+                      <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <Link to="about.html">About Us</Link>
+                      <Link to="/aboutUs">About Us</Link>
                     </li>
                     <li className="dropdown">
-                      <Link to="service.html">Products</Link>
+                      <Link to="/products">Products</Link>
                       <ul className="dropdown-menu">
                         <li>
-                          <Link to="article-page.html">Water Heater</Link>
+                          <Link to="article-page.html">Domestic Water Filter</Link>
                         </li>
                         <li>
-                          <Link to="article-page.html">Bathroom</Link>
+                          <Link to="article-page.html">Domestic RO Systems</Link>
                         </li>
                         <li>
-                          <Link to="article-page.html">Toilet</Link>
+                          <Link to="article-page.html">Commercial RO Systems</Link>
                         </li>
                         <li>
-                          <Link to="article-page.html">Tube and Shower</Link>
+                          <Link to="article-page.html">Water Softeners</Link>
                         </li>
                         <li>
-                          <Link to="article-page.html">Pipes and sweres</Link>
+                          <Link to="article-page.html">Industrial RO Systems</Link>
                         </li>
                         <li>
-                          <Link to="article-page.html">Drainage</Link>
+                          <Link to="article-page.html">Sea Water RO Sysrems</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">Industrial Filtration Systems</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">FRP Tanks</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">Distribution Systems</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">Multi-Port Control Valve</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">Pumps and Accessories</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">RO Membrane</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">Membrane Housings</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">Multi-cartridges Filter Housings</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">UF Membranes&MBR</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">Filter Media</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">Filter Cartridges</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">Cartridge Filter Housings</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">UV Sterilizer and Ozone</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">Flow Meter&Pressure Gauge</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">Meters and Instruments</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">Commercial Accessories</Link>
+                        </li>
+                        <li>
+                          <Link to="article-page.html">Residential Accessories</Link>
                         </li>
                       </ul>
                     </li>
 
                     <li>
-                      <Link to="contact.html">Contact Us</Link>
+                      <Link to="/contactUs">Contact Us</Link>
                     </li>
                   </ul>
                   {/* <!-- /navbar-nav --> */}
