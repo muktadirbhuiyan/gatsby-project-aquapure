@@ -11,8 +11,8 @@ const Header = () => (
             <div className="header-top">
               <div className="col-md-6 col-xs-12 col-sm-6">
                 <div className="logo">
-                  <Link title="fontanero" to="index.html">
-                    <StaticImage src="../images/logo.png" alt="fontanero" />
+                  <Link title="aquapure" to="index.html">
+                    <StaticImage src="../images/aquapureLogo.jpg" alt="aquapure" />
                   </Link>
                 </div>
               </div>
@@ -41,7 +41,7 @@ const Header = () => (
                     </li>
                   </ul>
                   <p>
-                    Call Us: <strong>(345) 345-3456</strong>
+                    Call Us: <strong>+886-4-2562-5880</strong>
                   </p>
                 </div>
               </div>

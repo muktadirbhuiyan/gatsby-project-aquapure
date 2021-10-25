@@ -8,8 +8,8 @@ function ShowCase() {
         <div className="service-section">
           <div className="col-md-12">
             {/* <!-- Nav tabs --> */}
-            <ul className="tablist" >
-              <li>Products Does Matters</li>
+            <ul className="tablist">
+              <li>Products Does Matter</li>
               <li role="presentation" className="active">
                 <a
                   href="/residential"
@@ -38,15 +38,18 @@ function ShowCase() {
               <div className="col-md-4 col-xs-12 col-sm-6">
                 <div className="service-item">
                   <div className="service-thumb">
-                    <StaticImage src="../images/service/service1.jpg" alt="" />
+                    <StaticImage
+                      src="../images/product/11G Pressure Storage Tank.jpg"
+                      alt=""
+                    />
                   </div>
                   <div className="service-description">
-                    <a href="water-heater.html">
-                      <h3>Water Heater</h3>
+                    <a href="/">
+                      <h3>11G Pressure Storage Tank</h3>
                     </a>
                     <p>
-                      Nulla consequat massa quis enim. Donec pede justo,
-                      fringilla vel aliquet nec vulputate
+                      With stainless connector 3/4"stainless steel inlet With
+                      butyl diaphragm Fit for public place
                     </p>
                   </div>
                 </div>
@@ -54,15 +57,19 @@ function ShowCase() {
               <div className="col-md-4 col-xs-12 col-sm-6">
                 <div className="service-item">
                   <div className="service-thumb">
-                    <StaticImage src="../images/service/service2.jpg" alt="" />
+                    <StaticImage
+                      src="../images/product/20 Jumbo Filter Housing.jpg"
+                      alt=""
+                    />
                   </div>
                   <div className="service-description">
-                    <a href="bathroom.html">
-                      <h3>Bathroom</h3>
+                    <a href="/">
+                      <h3>20 Jumbo Filter Housing</h3>
                     </a>
                     <p>
-                      Nulla consequat massa quis enim. Donec pede justo,
-                      fringilla vel aliquet nec vulputate
+                      Meterial :High Quality PP Color: Blue/Transparent
+                      Type:Pressure Relief Port size:3/4" ;1' ; Single O Ring or
+                      Double O ring
                     </p>
                   </div>
                 </div>
@@ -70,15 +77,19 @@ function ShowCase() {
               <div className="col-md-4 col-xs-12 col-sm-6">
                 <div className="service-item">
                   <div className="service-thumb">
-                    <StaticImage src="../images/service/service3.jpg" alt="" />
+                    <StaticImage
+                      src="../images/product/75GPD Auto Flush Five Stage RO System.jpg"
+                      alt=""
+                    />
                   </div>
                   <div className="service-description">
-                    <a href="toilet.html">
-                      <h3>Toilet</h3>
+                    <a href="/">
+                      <h3>75GPD Auto Flush Five Stage RO System</h3>
                     </a>
                     <p>
-                      Nulla consequat massa quis enim. Donec pede justo,
-                      fringilla vel aliquet nec vulputate
+                      RO (reverse osmosis) membrane Function: Filtering germ,
+                      virus,corpuscule,other solute chemical from tap water
+                      processinge
                     </p>
                   </div>
                 </div>
@@ -86,15 +97,18 @@ function ShowCase() {
               <div className="col-md-4 col-xs-12 col-sm-6">
                 <div className="service-item">
                   <div className="service-thumb">
-                    <StaticImage src="../images/service/service4.jpg" alt="" />
+                    <StaticImage
+                      src="../images/product/Carbon Filter Cartridge.jpg"
+                      alt=""
+                    />
                   </div>
                   <div className="service-description">
-                    <a href="shower.html">
-                      <h3>Tube and shower</h3>
+                    <a href="/">
+                      <h3>Carbon Filter Cartridge</h3>
                     </a>
                     <p>
-                      Nulla consequat massa quis enim. Donec pede justo,
-                      fringilla vel aliquet nec vulputate
+                      The filtration media of activated carbon filter cartridge
+                      is nut-shell carbon as the raw material.
                     </p>
                   </div>
                 </div>
@@ -102,15 +116,18 @@ function ShowCase() {
               <div className="col-md-4 col-xs-12 col-sm-6">
                 <div className="service-item">
                   <div className="service-thumb">
-                    <StaticImage src="../images/service/service5.jpg" alt="" />
+                    <StaticImage
+                      src="../images/product/Domestic RO Booster Pump.png"
+                      alt=""
+                    />
                   </div>
                   <div className="service-description">
-                    <a href="pipes.html">
-                      <h3>pipes and sewers</h3>
+                    <a href="/">
+                      <h3>Domestic RO Booster Pump</h3>
                     </a>
                     <p>
-                      Nulla consequat massa quis enim. Donec pede justo,
-                      fringilla vel aliquet nec vulputate
+                      Domestic RO Booster Pump Capacity:50/75/100/200/300/400GPD
+                      Self Priming/Normal Pump
                     </p>
                   </div>
                 </div>
@@ -118,15 +135,19 @@ function ShowCase() {
               <div className="col-md-4 col-xs-12 col-sm-6">
                 <div className="service-item">
                   <div className="service-thumb">
-                    <StaticImage src="../images/service/service6.jpg" alt="" />
+                    <StaticImage
+                      src="../images/product/PP Melted Sediment.png"
+                      alt=""
+                    />
                   </div>
                   <div className="service-description">
-                    <a href="drainage.html">
-                      <h3>Drainage</h3>
+                    <a href="/">
+                      <h3>PP Melted Sediment</h3>
                     </a>
                     <p>
-                      Nulla consequat massa quis enim. Donec pede justo,
-                      fringilla vel aliquet nec vulputate
+                      Using 100% food grade polypropylene(pp) as material.
+                      Mainly it is suitable for filter bigger pellests,water
+                      pre-treatment.
                     </p>
                   </div>
                 </div>

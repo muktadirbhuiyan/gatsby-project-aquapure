@@ -8,8 +8,8 @@ function Footer() {
         <div className="footer-top">
           <div className="col-md-3 col-sm-6">
             <div className="logo footer-logo">
-              <a title="fontanero" href="index.html">
-                <StaticImage src="../images/logo.png" alt="fontanero" />
+              <a title="aquapure" href="index.html">
+                <StaticImage src="../images/aquapureLogo.jpg" alt="aquapure" />
               </a>
               <p>
                 Competently conceptualize go forward testing procedures and B2B
@@ -65,19 +65,19 @@ function Footer() {
             <div className="contact-us">
               <h4>Contact us</h4>
               <address>
-                3456 E. Wieding Road <br />
-                Tucson AZ, 3456
+                Add：No.42-2,Ln 70, Shenlin Rd., Shengang Dist, <br />
+                Taichung City 429, Taiwan(R.O.C.)
               </address>
               <address>
                 <span>Email :</span>
-                <a href="info@fontaneroplumbing.net">
-                  info@fontaneroplumbing.net
+                <a href="info@aquapure.net">
+                  info@aquapure.net
                 </a>
               </address>
               <address>
                 <span>Phones :</span>
-                Main: (345) 345-3456 <br />
-                Fax: (345) 345-3456 <br />
+                Main: +886-4-2562-5880 <br />
+                Fax: +886-4-2562-8680 <br />
               </address>
             </div>
           </div>
@@ -90,7 +90,7 @@ function Footer() {
           <div className="col-md-6 col-xs-12 col-sm-6">
             <div className="copyright">
               <p>
-                Copyright 2016. fontanero inc.
+                Copyright {new Date().getFullYear()}. Aqua Pure Taiwan inc.
                 {/* <a href="https://uicookies.com">uiCookies</a> */}
               </p>
             </div>

@@ -25,7 +25,7 @@ function Clients() {
               <div className="activity-head">
                 <h2>
                   Why you can rely with 100% confidence ON fontanero{" "}
-                  <span>PLUMBING</span> Service.
+                  <span>PURE WATER</span> Service.
                 </h2>
               </div>
             </div>

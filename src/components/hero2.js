@@ -14,16 +14,16 @@ function Hero2() {
               />
             </div>
             <div className="welcome-content">
-              <h3>welcome to fontanero</h3>
+              <h3>Aqua Pure Taiwan</h3>
               <p>
-                Shanghai Hello Pure Water Technology Co.,ltd is established in
-                2010. We are a professional manufacturer and exporter that is
+                Taichung City Aqua Pure Water Technology Co.,ltd is established
+                in 2010. We are a professional manufacturer and exporter that is
                 concerned with the design, development and production of water
-                treatment system and components. We are located in Shanghai,
-                China, with convenient transportation access. All of our
-                products comply with international quality standards and are
-                greatly appreciated in a variety of different markets throughout
-                the world.{" "}
+                treatment system and components. We are located in Taichung City
+                429, Taiwan(R.O.C.), with convenient transportation access. All
+                of our products comply with international quality standards and
+                are greatly appreciated in a variety of different markets
+                throughout the world.{" "}
               </p>
               <a className="btn" href="/aboutUs">
                 Read More

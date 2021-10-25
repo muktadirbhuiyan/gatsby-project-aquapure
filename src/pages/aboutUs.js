@@ -35,14 +35,14 @@ const aboutUs = () => (
             <div className="history-details">
               <StaticImage src="../images/about.jpg" alt="" />
               <p>
-                Shanghai Hello Pure Water Technology Co.,ltd is established in
-                2010. We are a professional manufacturer and exporter that is
+                Taichung City Aqua Pure Water Technology Co.,ltd is established
+                in 2010. We are a professional manufacturer and exporter that is
                 concerned with the design, development and production of water
-                treatment system and components. We are located in Shanghai,
-                China, with convenient transportation access. All of our
-                products comply with international quality standards and are
-                greatly appreciated in a variety of different markets throughout
-                the world.
+                treatment system and components. We are located in Taichung City
+                429, Taiwan(R.O.C.), with convenient transportation access. All
+                of our products comply with international quality standards and
+                are greatly appreciated in a variety of different markets
+                throughout the world.
               </p>
               <p>
                 The Range of our products include residential, commercial and
@@ -62,7 +62,11 @@ const aboutUs = () => (
                 looking forward to forming successful business relationships
                 with new clients around the world in the near future.
               </p>
-              <h4>Our company promises: reasonable prices, short production time and satisfactory after-sales service, Mutual development, mutual benefits </h4>
+              <h4>
+                Our company promises: reasonable prices, short production time
+                and satisfactory after-sales service, Mutual development, mutual
+                benefits{" "}
+              </h4>
             </div>
           </div>
         </div>
