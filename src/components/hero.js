@@ -56,7 +56,7 @@ function Hero() {
               </div> */}
 
               <div className="item active">
-                <StaticImage src="../images/slide2.jpg" alt="slide3" />
+                <StaticImage src="../images/slide2.jpg" alt="slide2" />
                 {/* <div className="carousel-caption">
                   <h1>Quick Service, Quality Work &amp; Be Happy...</h1>
                   <p>
