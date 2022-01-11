@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Aqua Pure Taiwan`,
+    description: `Taichung City Aqua Pure Water Technology Co.,ltd is established in 2010. We are a professional manufacturer and exporter that is concerned with the design, development and production of water treatment system and components.`,
+    author: `@Aqua_Pure_Taiwan`,
+    siteUrl: `https://aquapuretaiwan.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
