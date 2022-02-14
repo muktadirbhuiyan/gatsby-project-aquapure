@@ -11,7 +11,7 @@ const Header = () => (
             <div className="header-top">
               <div className="col-md-6 col-xs-12 col-sm-6">
                 <div className="logo">
-                  <Link title="aquapure" to="index.html">
+                  <Link title="aquapure" to="/">
                     <StaticImage src="../images/aquapureLogo.jpg" alt="aquapure" />
                   </Link>
                 </div>

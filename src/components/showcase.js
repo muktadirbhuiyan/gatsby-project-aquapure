@@ -8,11 +8,9 @@ function ShowCase() {
       allMarkdownRemark {
         edges {
           node {
-            internal {
-              content
-            }
             frontmatter {
               title
+              slug
               image1alt
               Image01 {
                 childImageSharp {
@@ -20,6 +18,7 @@ function ShowCase() {
                 }
               }
             }
+            id
           }
         }
       }
@@ -45,7 +44,7 @@ function ShowCase() {
               </li>
               <li role="presentation">
                 <a
-                  href="/commercial"
+                  href="/"
                   aria-controls="commercial"
                   role="tab"
                   data-toggle="tab"
@@ -68,10 +67,9 @@ function ShowCase() {
                       />
                     </div>
                     <div className="service-description">
-                      <Link to="/">
+                      <Link to={"/" + node.frontmatter.slug} key={node.id}>
                         <h3>{node.frontmatter.title}</h3>
                       </Link>
-                      <p>{node.internal.content} </p>
                     </div>
                   </div>
                 </div>
@@ -89,10 +87,9 @@ function ShowCase() {
                       />
                     </div>
                     <div className="service-description">
-                      <Link to="/">
+                      <Link to={"/" + node.frontmatter.slug} key={node.id}>
                         <h3>{node.frontmatter.title}</h3>
                       </Link>
-                      <p>{/* {node.frontmatter.Descrip} */}</p>
                     </div>
                   </div>
                 </div>
