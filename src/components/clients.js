@@ -14,7 +14,7 @@ function Clients() {
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
-    pauseOnHover: true
+    pauseOnHover: true,
   }
   return (
     <>
@@ -24,7 +24,7 @@ function Clients() {
             <div className="col-md-12">
               <div className="activity-head">
                 <h2>
-                  Why you can rely with 100% confidence ON fontanero{" "}
+                  Why you can rely with 100% confidence ON{" "}
                   <span>PURE WATER</span> Service.
                 </h2>
               </div>
@@ -112,65 +112,65 @@ function Clients() {
               <h2>We Serving our Clients</h2>
               <div id="our-client-thumb">
                 <Slider {...settings}>
-                <div className="item">
-                  <div className="client-logo">
-                    <StaticImage src="../images/client1.jpg" alt="" />
+                  <div className="item">
+                    <div className="client-logo">
+                      <StaticImage src="../images/client1.jpg" alt="" />
+                    </div>
                   </div>
-                </div>
 
-                <div className="item">
-                  <div className="client-logo">
-                    <StaticImage src="../images/client2.jpg" alt="" />
+                  <div className="item">
+                    <div className="client-logo">
+                      <StaticImage src="../images/client2.jpg" alt="" />
+                    </div>
                   </div>
-                </div>
 
-                <div className="item">
-                  <div className="client-logo">
-                    <StaticImage src="../images/client3.jpg" alt="" />
+                  <div className="item">
+                    <div className="client-logo">
+                      <StaticImage src="../images/client3.jpg" alt="" />
+                    </div>
                   </div>
-                </div>
 
-                <div className="item">
-                  <div className="client-logo">
-                    <StaticImage src="../images/client4.jpg" alt="" />
+                  <div className="item">
+                    <div className="client-logo">
+                      <StaticImage src="../images/client4.jpg" alt="" />
+                    </div>
                   </div>
-                </div>
 
-                <div className="item">
-                  <div className="client-logo">
-                    <StaticImage src="../images/client5.jpg" alt="" />
+                  <div className="item">
+                    <div className="client-logo">
+                      <StaticImage src="../images/client5.jpg" alt="" />
+                    </div>
                   </div>
-                </div>
 
-                <div className="item">
-                  <div className="client-logo">
-                    <StaticImage src="../images/client1.jpg" alt="" />
+                  <div className="item">
+                    <div className="client-logo">
+                      <StaticImage src="../images/client1.jpg" alt="" />
+                    </div>
                   </div>
-                </div>
 
-                <div className="item">
-                  <div className="client-logo">
-                    <StaticImage src="../images/client2.jpg" alt="" />
+                  <div className="item">
+                    <div className="client-logo">
+                      <StaticImage src="../images/client2.jpg" alt="" />
+                    </div>
                   </div>
-                </div>
 
-                <div className="item">
-                  <div className="client-logo">
-                    <StaticImage src="../images/client3.jpg" alt="" />
+                  <div className="item">
+                    <div className="client-logo">
+                      <StaticImage src="../images/client3.jpg" alt="" />
+                    </div>
                   </div>
-                </div>
 
-                <div className="item">
-                  <div className="client-logo">
-                    <StaticImage src="../images/client4.jpg" alt="" />
+                  <div className="item">
+                    <div className="client-logo">
+                      <StaticImage src="../images/client4.jpg" alt="" />
+                    </div>
                   </div>
-                </div>
 
-                <div className="item">
-                  <div className="client-logo">
-                    <StaticImage src="../images/client5.jpg" alt="" />
+                  <div className="item">
+                    <div className="client-logo">
+                      <StaticImage src="../images/client5.jpg" alt="" />
+                    </div>
                   </div>
-                </div>
                 </Slider>
               </div>
             </div>
