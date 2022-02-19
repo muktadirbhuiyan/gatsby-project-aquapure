@@ -11,6 +11,7 @@ function ShowCase() {
             frontmatter {
               title
               slug
+              price
               image1alt
               Image01 {
                 childImageSharp {
@@ -58,7 +59,7 @@ function ShowCase() {
           <div className="tab-content">
             <div role="tabpanel" className="tab-pane active" id="residential">
               {data.allMarkdownRemark.edges.map(({ node }) => (
-                <div className="col-md-4 col-xs-12 col-sm-6">
+                <div className="col-md-4 col-xs-12 col-sm-6" key={node.id}>
                   <div className="service-item">
                     <div className="service-thumb">
                       <GatsbyImage
@@ -71,14 +72,26 @@ function ShowCase() {
                         <h3>{node.frontmatter.title}</h3>
                       </Link>
                     </div>
+                  </div>
+                  <div className="product-info">
+                    <div className="product-price">
+                      {node.frontmatter.price}
+                    </div>
+                    <Link
+                      to={"/" + node.frontmatter.slug}
+                      key={node.id}
+                      className="product-button"
+                    >
+                      View Details
+                    </Link>
                   </div>
                 </div>
               ))}
             </div>
 
-            <div role="tabpanel" className="tab-pane fade" id="commercial">
+            {/* <div role="tabpanel" className="tab-pane fade" id="commercial">
               {data.allMarkdownRemark.edges.map(({ node }) => (
-                <div className="col-md-4 col-xs-12 col-sm-6">
+                <div className="col-md-4 col-xs-12 col-sm-6" key={node.id}>
                   <div className="service-item">
                     <div className="service-thumb">
                       <GatsbyImage
@@ -94,7 +107,7 @@ function ShowCase() {
                   </div>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
         {/* <!-- .service-section--> */}

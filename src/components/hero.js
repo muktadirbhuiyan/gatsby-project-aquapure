@@ -29,44 +29,10 @@ function Hero() {
             <Slider {...settings}>
               <div className="item active">
                 <StaticImage src="../images/slide1.jpg" alt="slide1" />
-                {/* <div className="carousel-caption">
-                  <h1>Quick Service, Quality Work &amp; Be Happy...</h1>
-                  <p>
-                    Class aptent taciti sociosqu ad litora torquent per conubia
-                    nostra, per inceptos himenaeos. Maecenas venenatis.
-                  </p>
-                  <a className="btn" href="/">
-                    Learn More
-                  </a>
-                </div> */}
               </div>
-
-              {/* <div className="item active">
-                <StaticImage src="../images/slide1.jpg" alt="slide2" />
-                <div className="carousel-caption">
-                  <h1>Quick Service, Quality Work &amp; Be Happy...</h1>
-                  <p>
-                    Class aptent taciti sociosqu ad litora torquent per conubia
-                    nostra, per inceptos himenaeos. Maecenas venenatis.
-                  </p>
-                  <a className="btn" href="/">
-                    Learn More
-                  </a>
-                </div>
-              </div> */}
 
               <div className="item active">
                 <StaticImage src="../images/slide2.jpg" alt="slide2" />
-                {/* <div className="carousel-caption">
-                  <h1>Quick Service, Quality Work &amp; Be Happy...</h1>
-                  <p>
-                    Class aptent taciti sociosqu ad litora torquent per conubia
-                    nostra, per inceptos himenaeos. Maecenas venenatis.
-                  </p>
-                  <a className="btn" href="/">
-                    Learn More
-                  </a>
-                </div> */}
               </div>
             </Slider>
           </div>

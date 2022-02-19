@@ -648,6 +648,27 @@ offcanvas-menu
 /*--------------------------------------------
   Service section style
 --------------------------------------------*/
+.product-info{
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.product-price{
+  color: #7ed6df;
+  font-size: 26px;
+}
+.product-button{
+  margin-left: auto;
+  text-decoration: none;
+  border: 2px solid;
+  padding: 8px 24px;
+  border-radius: 20px;
+  transition: .4s linear;
+}
+.product-button:hover{
+  transform: scale(1.06);
+}
+
 .service-section{
   overflow: hidden;
   padding-bottom: 5em;
