@@ -1,9 +1,24 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { Link } from "gatsby"
+import { graphql, useStaticQuery, Link } from "gatsby"
 
-
-const Header = () => (
+function Header() {
+  const data = useStaticQuery(graphql`
+    {
+      allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              title
+              slug
+            }
+            id
+          }
+        }
+      }
+    }
+  `)
+  return (
     <div className="container">
       <div className="row">
         <section className="header">
@@ -12,7 +27,10 @@ const Header = () => (
               <div className="col-md-6 col-xs-12 col-sm-6">
                 <div className="logo">
                   <Link title="aquapure" to="/">
-                    <StaticImage src="../images/aquapureLogo.jpg" alt="aquapure" />
+                    <StaticImage
+                      src="../images/aquapureLogo.jpg"
+                      alt="aquapure"
+                    />
                   </Link>
                 </div>
               </div>
@@ -79,77 +97,15 @@ const Header = () => (
                       <Link to="/aboutUs">About Us</Link>
                     </li>
                     <li className="dropdown">
-                      <Link to="/products">Products</Link>
+                      <Link>Products</Link>
                       <ul className="dropdown-menu">
-                        <li>
-                          <Link to="article-page.html">Domestic Water Filter</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Domestic RO Systems</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Commercial RO Systems</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Water Softeners</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Industrial RO Systems</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Sea Water RO Sysrems</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Industrial Filtration Systems</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">FRP Tanks</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Distribution Systems</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Multi-Port Control Valve</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Pumps and Accessories</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">RO Membrane</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Membrane Housings</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Multi-cartridges Filter Housings</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">UF Membranes&MBR</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Filter Media</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Filter Cartridges</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Cartridge Filter Housings</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">UV Sterilizer and Ozone</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Flow Meter&Pressure Gauge</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Meters and Instruments</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Commercial Accessories</Link>
-                        </li>
-                        <li>
-                          <Link to="article-page.html">Residential Accessories</Link>
-                        </li>
+                        {data.allMarkdownRemark.edges.map(({ node }) => (
+                          <li key={node.id}>
+                            <Link to={"/" + node.frontmatter.slug}>
+                              {node.frontmatter.title}
+                            </Link>
+                          </li>
+                        ))}
                       </ul>
                     </li>
 
@@ -159,7 +115,10 @@ const Header = () => (
                   </ul>
                   {/* <!-- /navbar-nav --> */}
 
-                  <div className="nav navbar-nav navbar-right" id="header-right">
+                  <div
+                    className="nav navbar-nav navbar-right"
+                    id="header-right"
+                  >
                     <div className="header-right">
                       <form>
                         <input
@@ -185,7 +144,7 @@ const Header = () => (
       {/* <!-- .row--> */}
     </div>
     // {/* <!-- .container--> */}
-  
-)
+  )
+}
 
 export default Header

@@ -7,9 +7,6 @@ import "./css/bootstrap.min.css"
 import "./css/offcanvas.css"
 import "./css/style.css"
 
-
-
-
 const Layout = ({ children }) => {
   return (
     <>
