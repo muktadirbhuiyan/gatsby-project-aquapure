@@ -1,28 +1,66 @@
 import React, { useState } from "react"
+import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import "../components/css/product-details.css"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { graphql } from "gatsby"
+import "../components/css/product-details.css"
 
 function ProductDetails({ data }) {
-  const [show, setShow] = useState("block")
-  console.log("show", show)
-  
   const { html } = data.markdownRemark
-  const { title, price, image1alt, Image01 } = data.markdownRemark.frontmatter
-  
-  
-  const handleClick = (n) => {
-    setShow((s) => {
-      console.log("s", s)
-      if(s=="block"){
-        return "none"
-      } else{
-        return "block"
-      }
-    })
-    
+  const { title, price, image1alt, Image01, Image02, Image03, Image04 } =
+    data.markdownRemark.frontmatter
+
+  const [show1, setShow1] = useState("block")
+  const [show2, setShow2] = useState("none")
+  const [show3, setShow3] = useState("none")
+  const [show4, setShow4] = useState("none")
+
+  const [classname1, setClassname1] = useState("")
+  const [classname2, setClassname2] = useState("")
+  const [classname3, setClassname3] = useState("")
+  const [classname4, setClassname4] = useState("")
+
+  const currentSlide = (event, n) => {
+    if (n === 1) {
+      setShow1("block")
+      setShow2("none")
+      setShow3("none")
+      setShow4("none")
+      setClassname1(" active")
+      setClassname2("")
+      setClassname3("")
+      setClassname4("")
+    }
+    if (n === 2) {
+      setShow1("none")
+      setShow2("block")
+      setShow3("none")
+      setShow4("none")
+      setClassname1("")
+      setClassname2(" active")
+      setClassname3("")
+      setClassname4("")
+    }
+    if (n === 3) {
+      setShow1("none")
+      setShow2("none")
+      setShow3("block")
+      setShow4("none")
+      setClassname1("")
+      setClassname2("")
+      setClassname3(" active")
+      setClassname4("")
+    }
+    if (n === 4) {
+      setShow1("none")
+      setShow2("none")
+      setShow3("none")
+      setShow4("block")
+      setClassname1("")
+      setClassname2("")
+      setClassname3("")
+      setClassname4(" active")
+    }
   }
 
   return (
@@ -31,30 +69,30 @@ function ProductDetails({ data }) {
       <div className="main-container">
         <section className="left">
           <div className="product-container" id="product-container">
-            <div className="product-image" style={{display: show ? "block" : "none"}}>
+            <div className="product-image" style={{ display: show1 }}>
               <GatsbyImage
                 image={getImage(Image01)}
                 alt={image1alt}
                 className="product-img"
               />
             </div>
-            <div className="product-image" style={{display: show ? "none" : "block"  }}>
+            <div className="product-image" style={{ display: show2 }}>
               <GatsbyImage
-                image={getImage(Image01)}
+                image={getImage(Image02)}
                 alt={image1alt}
                 className="product-img"
               />
             </div>
-            <div className="product-image" style={{display: show ? "none" : "block" }}>
+            <div className="product-image" style={{ display: show3 }}>
               <GatsbyImage
-                image={getImage(Image01)}
+                image={getImage(Image03)}
                 alt={image1alt}
                 className="product-img"
               />
             </div>
-            <div className="product-image" style={{display: show ? "none" : "block" }}>
+            <div className="product-image" style={{ display: show4 }}>
               <GatsbyImage
-                image={getImage(Image01)}
+                image={getImage(Image04)}
                 alt={image1alt}
                 className="product-img"
               />
@@ -62,30 +100,50 @@ function ProductDetails({ data }) {
           </div>
 
           <div className="thumbnail-container">
-            <div className="thumbnail-image" onClick={()=> handleClick()}>
+            <div
+              className={"thumbnail-image" + classname1}
+              onClick={(e) => currentSlide(e, 1)}
+              onKeyDown={currentSlide(1)}
+              role="none"
+            >
               <GatsbyImage
                 image={getImage(Image01)}
                 alt="product-thumbnail-1"
                 className="product-thumbnail"
               />
             </div>
-            <div className="thumbnail-image" onClick={()=> handleClick()}>
+            <div
+              className={"thumbnail-image" + classname2}
+              onClick={(e) => currentSlide(e, 2)}
+              onKeyDown={currentSlide(2)}
+              role="none"
+            >
               <GatsbyImage
-                image={getImage(Image01)}
+                image={getImage(Image02)}
                 alt="product-thumbnail-2"
                 className="product-thumbnail"
               />
             </div>
-            <div className="thumbnail-image" onClick={()=> handleClick()}>
+            <div
+              className={"thumbnail-image" + classname3}
+              onClick={(e) => currentSlide(e, 3)}
+              onKeyDown={currentSlide(3)}
+              role="none"
+            >
               <GatsbyImage
-                image={getImage(Image01)}
+                image={getImage(Image03)}
                 alt="product-thumbnail-3"
                 className="product-thumbnail"
               />
             </div>
-            <div className="thumbnail-image" onClick={()=> handleClick()}>
+            <div
+              className={"thumbnail-image" + classname4}
+              onClick={(e) => currentSlide(e, 4)}
+              onKeyDown={currentSlide(4)}
+              role="none"
+            >
               <GatsbyImage
-                image={getImage(Image01)}
+                image={getImage(Image04)}
                 alt="product-thumbnail-4"
                 className="product-thumbnail"
               />

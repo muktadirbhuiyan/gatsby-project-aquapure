@@ -15,7 +15,6 @@
 }
 
 .product-image {
-  /* display: none; */
   overflow: hidden;
   cursor: pointer;
   border-radius: 16px;

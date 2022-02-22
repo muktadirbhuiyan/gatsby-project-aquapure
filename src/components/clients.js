@@ -114,61 +114,61 @@ function Clients() {
                 <Slider {...settings}>
                   <div className="item">
                     <div className="client-logo">
-                      <StaticImage src="../images/client1.jpg" alt="" />
+                      <StaticImage src="../images/clients/client1.jpg" alt="" />
                     </div>
                   </div>
 
                   <div className="item">
                     <div className="client-logo">
-                      <StaticImage src="../images/client2.jpg" alt="" />
+                      <StaticImage src="../images/clients/client2.jpg" alt="" />
                     </div>
                   </div>
 
                   <div className="item">
                     <div className="client-logo">
-                      <StaticImage src="../images/client3.jpg" alt="" />
+                      <StaticImage src="../images/clients/client3.jpg" alt="" />
                     </div>
                   </div>
 
                   <div className="item">
                     <div className="client-logo">
-                      <StaticImage src="../images/client4.jpg" alt="" />
+                      <StaticImage src="../images/clients/client4.jpg" alt="" />
                     </div>
                   </div>
 
                   <div className="item">
                     <div className="client-logo">
-                      <StaticImage src="../images/client5.jpg" alt="" />
+                      <StaticImage src="../images/clients/client5.jpg" alt="" />
                     </div>
                   </div>
 
                   <div className="item">
                     <div className="client-logo">
-                      <StaticImage src="../images/client1.jpg" alt="" />
+                      <StaticImage src="../images/clients/client1.jpg" alt="" />
                     </div>
                   </div>
 
                   <div className="item">
                     <div className="client-logo">
-                      <StaticImage src="../images/client2.jpg" alt="" />
+                      <StaticImage src="../images/clients/client2.jpg" alt="" />
                     </div>
                   </div>
 
                   <div className="item">
                     <div className="client-logo">
-                      <StaticImage src="../images/client3.jpg" alt="" />
+                      <StaticImage src="../images/clients/client3.jpg" alt="" />
                     </div>
                   </div>
 
                   <div className="item">
                     <div className="client-logo">
-                      <StaticImage src="../images/client4.jpg" alt="" />
+                      <StaticImage src="../images/clients/client4.jpg" alt="" />
                     </div>
                   </div>
 
                   <div className="item">
                     <div className="client-logo">
-                      <StaticImage src="../images/client5.jpg" alt="" />
+                      <StaticImage src="../images/clients/client5.jpg" alt="" />
                     </div>
                   </div>
                 </Slider>

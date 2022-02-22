@@ -91,7 +91,6 @@ function Footer() {
             <div className="copyright">
               <p>
                 Copyright {new Date().getFullYear()}. Aqua Pure Taiwan inc.
-                {/* <a href="https://uicookies.com">uiCookies</a> */}
               </p>
             </div>
           </div>
